@@ -1,0 +1,87 @@
+.DashboardDiv{
+  padding:15px;
+  border: 0px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  overflow: scroll;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+.DashboardDiv > h1 {
+  padding:10px;
+}
+.Cards{
+  margin:20px;
+  display: flex;
+}
+.Cards > div{
+  box-shadow: 5px 5px 3px #cbd3db;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgba(245,245,245,255);
+}
+.Cards > div > img{
+  width:60px;
+  height: 60px;
+}
+.Chartsec{
+  display: flex;
+}
+.ordercard {
+  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgba(245, 245, 245, 255);
+  margin: 15px;
+  text-align: center;
+  width:100%;
+}
+
+.ordercard > h2 {
+  font-family: Montserrat;
+  font-size: 2.3vmax;
+  background-color: white;
+  color: transparent !important;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    rgb(88, 85, 85),
+    rgb(158, 142, 142),
+    rgb(227, 207, 207),
+    rgb(126, 119, 119)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.order-table {
+  width: 100%;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  overflow: scroll;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+tbody{
+  padding: 10px;
+  color: gray;
+  text-align: left;
+  overflow: scroll;
+}
+.newUser {
+  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgba(245, 245, 245, 255);
+  text-align: center;
+}

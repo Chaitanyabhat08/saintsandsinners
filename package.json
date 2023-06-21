@@ -1,0 +1,34 @@
+{
+  "name": "saintsandsinners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sinners/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sinners/server.js",
+    "dev": "nodemon sinners/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/abort-controller": "^3.347.0",
+    "@aws-sdk/client-s3": "^3.354.0",
+    "aws-sdk": "^2.1401.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.37.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "razorpay": "^2.8.6",
+    "shortid": "^2.2.16",
+    "validator": "^13.9.0"
+  }
+}

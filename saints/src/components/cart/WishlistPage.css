@@ -1,0 +1,57 @@
+#productImage{
+  width:13vmax;
+  height:13vmax;
+  border-radius: 50%;
+}
+.emptyWishList {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emptyWishList > svg {
+  font-size: 5vmax;
+  color: tomato;
+}
+.emptyWishList > p {
+  font-size: 2vmax;
+}
+.emptyWishList > a {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 400 1vmax "Roboto";
+  text-decoration: none;
+}
+.listItem{
+  display: flex;
+  flex-direction: column;
+  margin:15px;
+  text-align: center;
+  align-items: center;
+}
+.wishlistPage{
+  display: flex;
+}
+
+.buttons-container > button{
+  width:12vmax;
+  height:2vmax;
+  background-color: rgb(178, 146, 146);
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s;
+}
+.buttons-container > button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}

@@ -1,0 +1,244 @@
+*{
+    scroll-behavior: smooth;
+}
+.Banner{
+    background-image: url("../../images/new1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Banner > h1{
+    margin:1vmax;
+    font:600 2.5vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+.Banner >p{
+    font:300 1.4vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+.productDiv{
+    object-fit: fill;
+}
+.Banner > a > button{
+    margin-bottom: 5vmax;
+    size: 2vmax;
+    cursor: pointer;
+    background-color: rgb(159, 153, 153);
+    border:1px rgba(144,144,144,255);
+    border-radius: 20%;
+    padding: 0.6vmax;
+    transition: all 0.5s;
+    width:3.6vmax;
+    font:600 1vmax "Roboto", "Helvetica Neue";
+    scroll-behavior: smooth;
+}
+.Banner > a > button:hover {
+    background-color: rgba(255,255,255,0);
+    color:white;
+}
+/* If you use default color banner */
+.Banner::after{ 
+    content:"";
+    width:100vm;
+    height:100vmin;
+    background-color: #ffffff;
+    position:absolute;
+    top: 20px;
+    left:0;
+    max-width: 100%;
+    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+}
+.categorySection{
+    background-color: white;
+    height: 53vmax;
+}
+.categorySection>h2{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(164, 161, 161), gray, rgb(164, 161, 161), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.homeHeading{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.8vmax;
+    border-bottom: 1px solid rgba(21,21,21,0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin:5vmax auto;
+}
+.container1{
+    display: flex;
+    margin:2vmax auto;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    animation: fadeIn 5s;
+}
+.container1 > h3{
+     font-size: 32px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buttonSec{
+    display: none;
+    flex-direction: column;
+    object-fit: cover;
+    margin:0;
+}
+.button > button{
+    background-color: gray;
+    color: rgb(40, 25, 25);
+    align-items: center;
+}
+.button> .btn:hover{
+    background-color: rgb(50, 48, 48);
+    color: whitesmoke;
+    text-decoration: none;
+}
+.button :first-child{
+    margin-right:10px;
+}
+
+.buttonSec > div:nth-child(2) > button {
+    background-color: gray;
+    color: rgb(40, 24, 24);
+    text-align: center;
+    margin-top:10px;
+    width: 100%;
+}
+.buttonSec > div:nth-child(2)> button:hover{
+     background-color: rgb(50, 48, 48);
+     color:white;
+}
+.productDiv{
+    cursor: pointer;
+    width:15vmax;
+    height: 25vmax;
+    display: flex;
+    flex-direction:column;
+    text-decoration: none;
+    color:rgb(48,48,48);
+    margin:1.9vmax;
+    transition: all 0.3s;
+    padding-bottom: 0.5vmax;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    object-fit: contain;
+    min-height: 22vmax;
+    text-align: center;
+}
+.productDiv:hover{
+    height:29.5vmax;
+}
+.productDiv:hover .buttonSec{
+    display: flex;
+}
+
+.productCard > div{
+    display: flex;
+    margin:0;
+    justify-content: center;
+}
+.productCard > div > span{
+    padding-top:0.10vmax;
+    font: 300 1vmax Montserrat;
+     background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.productCard > p {
+    font:300 1.1vmax Montserrat;
+    margin:1vmax 0.5vmax;
+    margin-bottom: 0;
+    text-align: center;
+     background-clip: text;
+    background-image: linear-gradient(to right, rgb(49, 48, 48), rgb(28, 28, 28), rgb(44, 43, 43), rgb(34, 33, 33), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.productCard > span{
+    text-align: center;
+     background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font:600 1.2vmax "Montessarat";
+}
+.productDiv:hover{
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.36);
+    transform: translateY(1.3vmax);
+}
+.productCard > img {
+ max-width: 100%;
+  max-height: 100%; 
+  object-fit: contain; 
+  transition: transform .2s;
+  width: 14.5vmax;
+  height: 17vmax;
+  min-height: 15vmax;
+  min-width:15vmax;
+  object-fit: fill;
+  border-radius: 5px;
+  padding: 2px;
+}
+.heart {
+  color: red;
+
+}
+@media screen and (max-width:600px){
+    .productCard>p{
+        font-size: 1.7vmax;
+        display: flex;
+        flex-direction: column;
+    }
+    .productCard{
+        width: 200px;
+        height: 300px;
+        min-width: 200px;
+        min-height: 200px;
+    }
+    .productCard > div {
+        margin: 0vmax;
+        display: flex;
+        flex-direction: column;
+    }
+    .productCard > span{
+        font-size: 1.5vmax;
+    }
+    .container1{
+        display: flex;
+        align-items: last baseline;
+    }
+    .productCard > div > span {
+        margin: 0 0.5vmax;
+        font:300 1vmax;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .productCard > img {
+       width: 160px;
+       height: 160px;
+       transition: none;
+       display:inline-block;
+       object-fit: contain;
+    }
+   .productCard>img:hover{
+       transform: translateY(1.15);
+    }
+}
+

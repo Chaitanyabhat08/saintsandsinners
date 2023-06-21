@@ -1,0 +1,26 @@
+.mainDiv{
+   padding:15px;
+  border: 0px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+table{
+  margin:0;
+  margin-top: 30px;
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+  overflow: scroll;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+tbody{
+  padding: 10px;
+  color: gray;
+  text-align: left;
+  overflow: scroll;
+}

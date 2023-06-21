@@ -1,0 +1,90 @@
+.prodDiv {
+  cursor: pointer;
+  width: 15vmax;
+  height: 26vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 1.9vmax;
+  transition: all 0.3s;
+  padding-bottom: 0.5vmax;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 200px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  align-items: center;
+}
+
+.prodCard {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.prodCard > p{
+  text-decoration: none;
+  font-size: x-small;
+  margin:0;
+}
+.prodPic {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s;
+  width: 15vmax;
+  height: 15vmax;
+  min-height: 12vmax;
+  min-width: 12vmax;
+  object-fit: fill;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.prodName {
+  font-weight: 300;
+  font-size: 1.1vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+  text-align: center;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(49, 48, 48), rgb(28, 28, 28), rgb(44, 43, 43), rgb(34, 33, 33), gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.prodPrice {
+  text-align: center;
+  background-clip: text;
+  background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 1.2vmax;
+  font-family: "Montessarat";
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: color 0.2s;
+  width: 100%;
+}
+
+.btn:hover {
+  color: rgb(9, 9, 9);
+  background-color: rgb(246, 246, 242);
+}
+
+.btn svg {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}

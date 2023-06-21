@@ -1,0 +1,29 @@
+.prodImage{
+  width:250px;
+  height:250px;
+  border-radius: 50% ;
+}
+
+.form-group > h5{
+  color: transparent !important;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    rgb(88, 85, 85),
+    rgb(158, 142, 142),
+    rgb(227, 207, 207),
+    rgb(126, 119, 119)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 30px;
+}
+.MainDiv{
+  width: 600px;
+  height: 700px;
+  align-items: center;
+}
+#mainForm{
+  align-items: center;
+  justify-items: center;
+}

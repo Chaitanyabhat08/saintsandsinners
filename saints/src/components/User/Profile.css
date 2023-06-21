@@ -1,0 +1,127 @@
+.profileContainer{
+    background-color: whitesmoke;
+    display: flex;
+    padding:6vmax;
+    border: none;
+    overflow-y: scroll;
+}
+.profilepic{
+    width: 12vmax;
+    height: 12vmax;
+    border-radius: 50%;
+}
+.profileContainer > div:first-child{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vmax;
+    margin:10px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.profileContainer >div:first-child >h1{
+    margin-top: 20px;
+    margin-left: 20vmax;
+    color:rgba(0,0,0,0.555);
+    font: 500 3vmax;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    transform:translateX(-10vmax) translateY(-2vmax); 
+}
+.profileContainer >div:first-child > div > h4{
+    margin:10px;
+    font:400 1.5vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+.profileContainer > div:first-child > a > button{
+    border:none;
+    background-color: grey;
+    font:400 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align:center;
+    justify-content: center;
+    width: 50%;
+    height: 45px;
+    margin:4vmax;
+    transition: all 0.5s;
+}
+.profileContainer > div:first-child >a > button:hover{
+    background-color: rgb(96, 80, 80);
+}
+.profileContainer > div:first-child > a > button {
+    color: white;
+    cursor: pointer;
+}
+.profileContainer>div:last-child{
+    width:100%;
+    text-align: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 2vmax;
+    margin:10px;
+    height:36.2vmax;
+    box-sizing: border-box;
+    min-height: 35vmax;
+}
+.profileContainer>div:last-child > div >p{
+    color:rgba(0,0,0,0.418);
+    font:400 1vmax "Montessarat";
+    margin:0.2vmax;
+}
+input{
+    display: flex;
+    align-items: flex-start;
+}
+.profileContainer>.buttonSet{
+    border:none;
+    background-color: grey;
+    font:400 1vmax "Oswald";
+    color:white;
+    align-items: center;
+    width: 15vmax;
+    margin:4vmax;
+    height:3vmax;
+    transition: all 0.5s;
+}
+.profileContainer>div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileContainer>div:last-child > div > input{
+display: flex;
+align-items: flex-start;
+}
+.but{
+    display: flex;
+}
+.buttonSet > a{
+    color:white;
+    font:400 1vmax "Oswald";
+}
+.profileContainer>.buttonSet:hover{
+    background-color: rgb(96, 80, 80);
+}
+.middle{
+    display: flex;
+}
+@media screen and (max-width: 600px){
+    .profileContainer{
+        flex-direction: column;
+        margin:0;
+        font:500 2.5vmax "Oswald"
+    }
+    .profileContainer > div:first-child >h1{
+        font: 500 3.2vmax "Oswald";
+        transform: translateY(-2vmax);
+        text-align: center;
+    }
+    .profileContainer > div:last-child{
+        align-items: center;
+        justify-content: center;
+        height:36vmax;
+        text-align: center;
+    }
+}

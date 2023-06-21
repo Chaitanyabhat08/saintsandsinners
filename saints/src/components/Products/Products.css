@@ -1,0 +1,226 @@
+
+.productsHeading{
+    margin:2vmax auto;
+    width:15vw;
+    border-bottom: 1px solid rgba(0,0,0,0.171);
+    padding:2vmax;
+    color:rgba(0,0,0,0.678);
+    font:500 2vmax "Roboto";
+    text-align: center;
+}
+.MainSec{
+    display: flex;
+    margin-top: 100px;
+}
+.sort{
+    display: flex;
+    float: right;
+    border-radius: 5px;
+    align-items: flex-end;
+    text-align: center;
+    height: 2.0vmax;
+    padding-top: 70px;
+}
+.titleSec>h1{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.3vmax;
+    background-color: white;
+    color: transparent !important;
+    background-clip: text;
+    background-image: linear-gradient(to right, black, rgb(57, 56, 56), rgb(58, 56, 56), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.products{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    min-height: 30vmax;
+    margin-top:30px; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+}
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.paginationBox{
+    display: flex;
+    align-items: center;
+    margin:6vmax;
+    justify-content: center;
+    text-align: center;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.page-item{
+    background-color: rgb(255,255,255);
+    list-style: none;
+     border: 1.5px solid rgba(0,0,0,0.170);
+     padding:1vmax 1vmax;
+     align-items: center;
+     transition: all 0.3s;
+     cursor: pointer;
+     color: black;
+}
+.page-item:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.page-item:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.page-link{
+    text-decoration: none;
+    font:300 0.8vmax "Roboto";
+    color:rgb(80,80,80);
+    transition: all 0.3s;
+}
+.page-item:hover{
+    background-color: rgb(229, 226, 217);
+}
+.page-item:hover .page-link{
+    color: black;
+}
+.pageItemActive{
+    background-color: tomato;
+}
+.pageLinkActive{
+    background-color: tomato;
+}
+.genderSelection {
+    display: flex;
+    flex-direction: column;
+}
+
+.radioLabel {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 5px; */
+}
+
+.radioText {
+    /* margin-left: 5px;
+    margin-top: 2px; */
+    font-size: 5px;
+    order: 1;
+}
+input[type="radio"] {
+    order: 2;
+}
+
+.form-check {
+    display: flex;
+    align-items: flex-end;
+  /* margin-bottom: 10px;   */
+  }
+
+  .form-check-input {
+    margin-left: 165px;
+  }
+
+  .form-check-label {
+    font-size: 12px;
+  }
+  .heading {
+    margin-left: 80px;
+    font-size: 12px;
+  }
+.filterBox{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width:19vmax;
+    height: 50vmax;
+    margin-left: 3px;
+    text-decoration: none;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    min-width: 250px;
+    border-radius: 5px;
+    color:black;
+    min-width: 17.5vmax;
+}
+.genderSelection> div{
+    display: flex;
+    margin:10px;
+
+}
+.genderSelection> div:Input{
+    margin:10px;
+}
+.discountSec{
+    align-items: center;
+}
+.discountSec> div{
+    display: flex;
+}
+.discountSec> div ::before{
+   margin:10px;
+}
+.categoryBox{
+    padding-top:2vmax;
+    margin-top:15px;
+    min-width: 17.5vmax;
+}
+.ratingsBox{
+    padding-top:2vmax;
+    margin-top:15px;
+    min-width: 17.5vmax;
+}
+.together{
+    display: flex;
+}
+.productCard > img{
+    object-fit: cover;
+    transition: none;
+    display: block;
+}
+.clearFilters{
+    margin-top: 30px;
+    height: 25px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .products{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 20vmax;
+    }
+    .ProductCard{
+        font-size: 1.7vmax;
+        display: flex;
+        flex-direction: column;
+    }
+    .productCard > img{
+       width: 190px;
+       height: 190px;
+       transition: none;
+       display: block;
+       min-width: 180px;
+    }
+    .products > .filterBox{
+        margin-bottom: 100px;
+        align-items: center;
+    }
+}

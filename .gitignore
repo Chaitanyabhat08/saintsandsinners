@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+/saints/node_modules
+/saints/.pnp
+/saints/.pnp.js
+
+# testing
+/saints/coverage
+
+# production
+/saints/build
+
+# misc
+/sinners/config/.env
+/saints/.DS_Store
+/saints/.env.local
+/saints/.env.development.local
+/saints/.env.test.local
+/saints/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

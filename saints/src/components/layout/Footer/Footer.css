@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19); 
+  align-items: center;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+.left > h4{
+font-family: 600 1.5vmax "Montserrat";
+font-size: 1vmax;
+ background-clip: text;
+background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.left > p {
+    text-align: center;
+    font-family:Montessarat;
+     background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left > img {
+    width:3vmax;
+    margin:1vmax;
+    cursor: pointer;
+}
+.mid{
+    width:60%;
+    text-align: center;
+}
+.mid > p {
+    max-width: 60%;
+    margin: 0.5vmax auto;
+    font-size: 1vmax;
+    font-family:  Montessarat;
+     background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mid > img {
+    width:90px;
+    color:rgb(31, 4, 10);
+}
+.right{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right > h4{
+    font-family: 600 1.1vmax Montserrat;
+    font-size: 1.1vmax;
+     background-clip: text;
+    background-image: linear-gradient(to right, gray, rgb(188, 185, 185), gray, rgb(187, 183, 183), gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right > a{
+    text-decoration: none;
+    font-size: 1.1vmax;
+    margin:0.5vmax
+}
+.right > a:hover{
+    color: bisque;
+}

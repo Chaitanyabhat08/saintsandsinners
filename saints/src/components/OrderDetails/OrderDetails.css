@@ -1,0 +1,47 @@
+.orderDetails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.orderDetailsHeader {
+  grid-column: 1 / -1;
+}
+
+.orderDetailsColumn {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.orderDetailsColumn h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.orderDetailsColumn p {
+  margin: 5px 0;
+}
+
+.messageBox {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0ffe0;
+  border: 1px solid #8bc34a;
+  border-radius: 5px;
+}
+
+.arrivalMessage {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.orderDetailsMessage {
+  margin-top: 10px;
+}

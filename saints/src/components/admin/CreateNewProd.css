@@ -1,0 +1,65 @@
+#createProdForm{
+  width:500px;
+  align-items:center;
+  text-align:left;
+  margin:50px;
+}
+#createProdMain{
+  align-items:center;
+  text-align:center;
+}
+.CreateprodDiv{
+  margin:30px;
+  align-items:center;
+}
+.form-group > h6{
+  color: transparent !important;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    rgb(88, 85, 85),
+    rgb(158, 142, 142),
+    rgb(227, 207, 207),
+    rgb(126, 119, 119)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-group > input{
+  height:50px;
+}
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.preview-container {
+  position: relative;
+  display: inline-block;
+}
+
+.remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  font-size: 12px;
+  cursor: pointer;
+  margin:0;
+  padding: 0;
+}
+
+.preview-image {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

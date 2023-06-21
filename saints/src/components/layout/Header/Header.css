@@ -1,0 +1,9 @@
+.speedDialMain{
+    position: sticky;
+    padding-top: 65px;
+}
+.speedDialIcon{
+    width:56px;
+    height: 56px;
+    border-radius: 100%;
+}

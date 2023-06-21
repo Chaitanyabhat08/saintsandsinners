@@ -1,0 +1,19 @@
+.ProdMain{
+  padding:15px;
+  border: 0px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+.allProd{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    overflow-x:auto;
+    min-height: 30vmax;
+    margin-top:30px; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
